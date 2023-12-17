@@ -50,12 +50,12 @@ $(document).ready(function() {
 
     });
 
-    // $('#name, #email, #message').on('input', function() {
-    //     if (isAjaxSuccess) {
-    //         errorMessage.text('');
-    //         isAjaxSuccess = false;
-    //     }
-    // });
+    $('#name, #email, #message').on('input', function() {
+        if (isAjaxSuccess) {
+            errorMessage.text('');
+            isAjaxSuccess = false;
+        }
+    });
 
 });
 

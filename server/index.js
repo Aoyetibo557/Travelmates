@@ -76,9 +76,7 @@ app.post('/api/contact', async(req, res) => {
         return res.status(500).json({ status: 500, msg: 'Something went wrong. Please try again later.' });
 
     }
-    // finally {
-    //     await db.close();
-    // }
+
 });
 
 
@@ -94,9 +92,6 @@ app.get('/api/view-contacts', async(req, res) => {
         return res.status(500).json({ status: 500, msg: 'Something went wrong. Please try again later.' });
 
     }
-    // finally {
-    //     await db.close();
-    // }
 });
 
 /* Start server */
